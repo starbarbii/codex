@@ -20,7 +20,7 @@ app.get('/', async (req, res) => {
     message: 'Hello from Codex',
   })  
 });
-
+ 
 app.post('/', async (req, res) => {
   try {
     const prompt = req.body.prompt;
